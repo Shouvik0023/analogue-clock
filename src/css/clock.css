@@ -1,0 +1,46 @@
+.dial{
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    background: url(../images/clock.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   margin: auto;
+   margin-top: 10vw;
+    
+
+}
+
+#hour{
+    position: absolute;
+    height: 7vw;
+    width: 8px;
+    top: 8.3vw;
+    left: 14.6vw;
+    border-radius: 5px;
+    background-color: rgb(27, 5, 195);
+    /* display: none; */
+}
+
+#minute{
+    position: absolute;
+    height: 9vw;
+    width: 5px;
+    top: 6.3vw;
+    left: 14.7vw;
+    border-radius: 5px;
+    background-color: rgb(226, 3, 3);
+    /* display: none; */
+}
+
+#seconds{
+    position: absolute;
+    height: 11vw;
+    width: 3px;
+    top: 4.3vw;
+    left: 14.75vw;
+    border-radius: 5px;
+    background-color: black;
+    /* display: none; */
+
+}
