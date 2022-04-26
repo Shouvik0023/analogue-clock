@@ -1,14 +1,14 @@
-import React,{useState} from 'react'
+import React from 'react'
 import "../css/clock.css"
 
 function Clock() {
-    const hours= document.querySelector("#hour")
-    const minutes =document.querySelector("#minute")
-    const seconds = document.querySelector("#second")
+   
 
     setInterval(() => {
 
-     
+        const hours= document.querySelector("#hour")
+        const minutes =document.querySelector("#minute")
+        const seconds = document.querySelector("#second")
         
           let d= new Date();
             let htime=d.getHours();
