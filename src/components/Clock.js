@@ -21,6 +21,7 @@ function Clock() {
             hours.style.transform = `rotate(${hrotation}deg)`
             minutes.style.transform = `rotate(${mrotation}deg)`
             seconds.style.transform = `rotate(${srotation}deg)`
+
              
             
     },1000);
