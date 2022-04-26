@@ -27,11 +27,14 @@ function Clock() {
   return (
       <>
     <div className='container'  >
+       
        <div className="dial">
+      
        <div id="hour" ></div>
      <div id="minute" ></div>
      <div id="second"></div>
        </div>
+     <div id="center"></div>
       
     </div>
   
